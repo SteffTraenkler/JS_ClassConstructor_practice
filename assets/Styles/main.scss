@@ -1,0 +1,15 @@
+body{
+    display: grid;
+    place-content: center;
+    padding-top: 20%;
+}
+
+button{
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(129, 154, 200);
+        transform: scale(1.5);
+        margin-top: 2%;
+        transition: 0.3s;
+    }
+}
